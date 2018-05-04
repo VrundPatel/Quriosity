@@ -7,41 +7,19 @@ p {
   font-weight: 400;
 }
 
-.container {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  display: block;
-  height: 100vh;
-}
-
 .leftSide {
   position: fixed;
   left: 0px;
   top: 0px;
   bottom: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  width: 45%;
   height: 100%;
   padding-right: 35px;
   padding-left: 35px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   background-image: url(../../src/assets/clock.jpg);
   background-position: 50% 50%;
   background-size: cover;
-  /* text-align: center; */
   color: white;
 }
 
@@ -51,10 +29,8 @@ p {
   right: 0px;
   bottom: 0px;
   overflow: scroll;
-  width: 55%;
   height: 100%;
   padding: 135px 60px 100px;
-  float: right;
   background-color: white;
 }
 
