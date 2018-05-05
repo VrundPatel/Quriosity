@@ -1,10 +1,12 @@
-p {
-  font-family: 'Open Sans', sans-serif;
+.chapterConent > p {
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 15px;
   color: #414242;
   font-size: 17px;
   line-height: 1.6em;
-  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 .leftSide {
@@ -76,4 +78,35 @@ p {
   border-bottom: 1px solid #ececec;
   background-color: #fff;
   box-shadow: none;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .rightSide {
+    padding: 25px;
+  }
+}
+
+.blockquote {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-left: 5px solid #e2e2e2;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.6em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px;
+  width: 100%;
+  background: black;
+  color: white;
+  -webkit-box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.0785);
+  box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.0785);
 }
