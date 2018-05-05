@@ -11,10 +11,10 @@
 
 .leftSide {
   position: fixed;
-  left: 0px;
+  /* left: 0px;
   top: 0px;
   bottom: 0px;
-  display: flex;
+  display: flex; */
   height: 100%;
   padding-right: 35px;
   padding-left: 35px;
@@ -38,14 +38,9 @@
 
 .chapterTitle {
   display: block;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
+  padding-top: 50px;
 }
 
 .title {
@@ -80,13 +75,6 @@
   box-shadow: none;
 }
 
-/* For mobile phones: */
-@media only screen and (max-width: 768px) {
-  .rightSide {
-    padding: 25px;
-  }
-}
-
 .blockquote {
   margin-bottom: 10px;
   padding: 10px 20px;
@@ -109,4 +97,22 @@
   color: white;
   -webkit-box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.0785);
   box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.0785);
+}
+
+.chapterButton {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  margin-left: 20px;
+  margin-bottom: 35px;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .rightSide {
+    padding: 25px;
+  }
+  .chapterNavigation {
+    width: 100%;
+  }
 }
